@@ -267,6 +267,89 @@ h4 {
   border: none;
 }
 
+.button-client {
+  
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+
+
+
+.button-icon-one {
+ width: 44.27px;
+  height: 49.23px;
+  fill: #AFB1B8;
+}
+.button-icon-one:hover,
+.button-icon-one:focus {
+  fill: var(--accent-color);
+  
+}
+
+.button-icon-two {
+  width: 40px;
+height: 52px;
+fill: #AFB1B8;
+}
+
+.button-icon-two:hover,
+.button-icon-two:focus {
+  fill: var(--accent-color);
+  
+}
+
+.button-icon-three {
+  width: 41px;
+  height: 42.6px;
+  fill: #AFB1B8;
+}
+
+.button-icon-three:hover,
+.button-icon-three:focus {
+  fill: var(--accent-color);
+  
+}
+
+.button-icon-four {
+  width: 79.66px;
+  height: 42.02px;
+  fill: #AFB1B8;
+}
+
+.button-icon-four:hover,
+.button-icon-four:focus {
+  fill: var(--accent-color);
+  
+}
+
+.button-icon-five {
+  width: 59px;
+height: 47px;
+fill: #AFB1B8;
+}
+
+.button-icon-five:hover,
+.button-icon-five:focus {
+  fill: var(--accent-color);
+  
+}
+
+.button-icon-six {
+  width: 88.48px;
+  height: 45.44px;
+  fill: #AFB1B8;
+}
+
+.button-icon-six:hover,
+.button-icon-six:focus {
+  fill: var(--accent-color);
+  
+}
 .join {
   margin-left: 69px;
   margin-right: 94px;
@@ -433,4 +516,4 @@ h4 {
 
 .social-icon:hover,
 .social-icon:focus {
-  color: var(--white-color);
+  fill: var(--white-color);
