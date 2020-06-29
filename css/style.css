@@ -130,7 +130,36 @@ ul {
   color: var(--secondary-color);
 }
 .e-mail {
+  margin-right: 30px;
+}
+
+.e-mail-address {
+  color: var(--main-color);
+}
+.e-mail-address:hover {
   color: var(--accent-color);
+}
+
+button {
+  margin: 0;
+  padding: 0;
+}
+.icon-envelope {
+  height: 11.2px;
+  width: 16px;
+  padding: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mail-button {
+  display: inline-flex;
+  border-style: none;
+  background-color: var(--white-color);
+}
+
+.icon-envelope:hover {
+  fill: var(--accent-color);
 }
 .link-text {
   font-weight: 700;
@@ -255,13 +284,13 @@ h4 {
   border-radius: 4px;
 }
 
-.button>.envelope:before {
+/* .icon-envelope:before {
   height: 16px;
   width: 11.2px;
   content: ;
   background-size: contain;
   background-image: url(../img/vector/envelope\ \(hover\).svg);
-  margin-right: 10px;
+  margin-right: 10px; */
 }
 .button.primary {
   color: var(--white-color);
