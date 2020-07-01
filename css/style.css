@@ -161,6 +161,21 @@ button {
 .icon-envelope:hover {
   fill: var(--accent-color);
 }
+
+.phone {
+  display: inline-flex;
+  border-style: none;
+  background-color: var(--white-color);
+}
+
+.phone::before {
+  height: 14.94px;
+  width: 10px;
+  content: ;
+  margin-right: 10px;
+  background-size: contain;
+  background-image: url(../img/sprite2#icon-phone.svg);
+}
 .link-text {
   font-weight: 700;
   font-size: 18px;
@@ -284,14 +299,7 @@ h4 {
   border-radius: 4px;
 }
 
-/* .icon-envelope:before {
-  height: 16px;
-  width: 11.2px;
-  content: ;
-  background-size: contain;
-  background-image: url(../img/vector/envelope\ \(hover\).svg);
-  margin-right: 10px; */
-}
+
 .button.primary {
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -525,47 +533,13 @@ fill: #AFB1B8;
   fill: var(--white-color);
 }
 
-.social-footer:hover,
-.social-footer:focus {
-  background-color: var(--accent-color);
+.social:hover{
+background-color: var(--accent-color);
 }
-/* .insta {
-  background-color: #FFFFFF;
-  margin-bottom: 24px;
-  background-image: url(../img/social/instagram\ 2.png);
-  background-size: 20px 20px;
-  
+.social:hover .social-icon {
+fill: white;
 }
 
-.twitter {
-  background-color: #FFFFFF;
-  margin-bottom: 24px;
-  background-image: url(../img/social/twitter\ 1.png);
-  background-size: 20px 20px;
-}
-
-.facebook {
-  background-color: #FFFFFF;
-  margin-bottom: 24px;
-  background-image: url(../img/social/facebook\ 1.png);
-  background-size: 20px 20px;
-}
-
-.linkedin {
-  background-color: #FFFFFF;
-  margin-bottom: 24px;
-  background-image: url(../img/social/linkedin\ 1.png);
-  background-size: 20px 20px;
-} */
-
-.social:hover,
-.social:focus {
-  background-color:  var(--accent-color);
-  
-
-}
-
-.social-icon:hover,
-.social-icon:focus {
-  fill: var(--white-color);
+.social-footer:hover {
+background-color:  var(--accent-color);
 }
